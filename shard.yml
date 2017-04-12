@@ -1,0 +1,18 @@
+name: redis_crystal_playground
+version: 0.1.0
+
+authors:
+  - Eugene Sheverdin <me@scaint.name>
+
+targets:
+  redis_crystal_playground:
+    main: src/redis_crystal_playground.cr
+
+crystal: 0.21.1
+
+license: MIT
+
+dependencies:
+  redis:
+    github: stefanwille/crystal-redis
+    version: ~> 1.8.0
